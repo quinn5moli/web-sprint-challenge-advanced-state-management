@@ -7,8 +7,8 @@ import axios from 'axios';
 
 export const SMURF_FETCH_START = 'SMURF_START';
 export const SMURF_FETCH_SUCCESS = 'SMURF_SUCCESS';
-export const SMURF_FETCH_FAILURE = 'SMURF_FAILURE';
 export const SMURF_ADD = 'SMURF_ADD';
+export const SMURF_FETCH_FAILURE = 'SMURF_FETCH_FAILURE';
 export const ERROR_MESSAGE = 'ERROR_MESSAGE';
 
 export const fetchSmurfs = () => {
